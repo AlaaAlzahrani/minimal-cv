@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import * as AvatarPrimitive from "@radix-ui/react-avatar";
-
 import { cn } from "@/lib/utils";
 
 const Avatar = React.forwardRef<
@@ -47,4 +46,12 @@ const AvatarFallback = React.forwardRef<
 ));
 AvatarFallback.displayName = AvatarPrimitive.Fallback.displayName;
 
-export { Avatar, AvatarImage, AvatarFallback };
+// Usage example
+const AvatarWithPublicImage = () => (
+  <Avatar>
+    <AvatarImage src="/path/to/your/image.jpg" alt="Avatar" />
+    <AvatarFallback>AB</AvatarFallback>
+  </Avatar>
+);
+
+export { Avatar, AvatarImage, AvatarFallback, AvatarWithPublicImage };

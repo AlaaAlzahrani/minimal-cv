@@ -17,271 +17,277 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import {  AcademiconsResearchgate, AcademiconsGoogleScholar, SimpleIconsOrcid, GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Alaa Alzahrani",
+  initials: "AZ",
+  location: "Riyadh, Saudi Arabia",
+  locationLink: "https://www.google.com/maps/place/Riyadh",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+  "Experimental researcher, statistical modeler, and programmer with a PhD in Applied Linguistics.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Researcher and data scientist with a unique blend of skills in experimental design, advanced statistical modeling, and programming. I have a track record of conducting theory-driven and exploratory studies and building cutting-edge analytical models.",  
+    avatarUrl: "https://i.imgur.com/1BlYBfs.png",
+  personalWebsiteUrl: "https://alaaalzahrani.github.io/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "alzahrani.alaaa@gmail.com",
     social: [
       {
+        name: "ResearchGate",
+        url: "https://www.researchgate.net/profile/Alaa_Alzahrani2",
+        icon: AcademiconsResearchgate,
+      },
+      {
+        name: "Google Scholar",
+        url: "https://scholar.google.com/citations?user=H76z_oEAAAAJ&hl",
+        icon: AcademiconsGoogleScholar,
+      },
+      {
+        name: "ORCID",
+        url: "https://orcid.org/0000-0002-9914-915X",
+        icon: SimpleIconsOrcid,
+      },
+      {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/AlaaAlzahrani",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/alaa-alzahrani-87b830210/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/zahrani_alaa",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "King Saud University, Saudi Arabia",
+      degree: "PhD in Applied Linguistics",
+      start: "2019",
+      end: "2023",
+    },
+    {
+      school: "King Saud University, Saudi Arabia",
+      degree: "MA in Applied Linguistics",
+      start: "2016",
+      end: "2018",
+    },
+    {
+      school: "Princess Noura University, Saudi Arabia",
+      degree: "BA in Translation",
+      start: "2010",
+      end: "2015",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
+      company: "Feather",
+      link: "https://feathersa.com/",
+      badges: ["Data"],
+      title: "Lead Data Analyst",
       logo: ConsultlyLogo,
       start: "2024",
       end: null,
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+      "Providing digital marketing analytics, analyzing data from over 30 companies across multiple social platforms."
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Princess Noura University",
+      link: "https://pnu.edu.sa/en/Departments/DevConsulServices/Pages/Financialandaccounting.aspx",
+      badges: ["Research"],
+      title: "Research Assistant",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2022",
+      end: "2022",
       description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+        "Conducted in-depth analysis of school textbooks using discourse analysis frameworks. Resolved data-related issues and maintained effective communication with colleagues throughout the research process.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Prince Sultan University",
+      link: "https://www.psu.edu.sa/en/CHS/ALLAB",
+      badges: ["Research"],
+      title: "Research Assistant",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2018",
+      end: "2018",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+        "Managed and analyzed data from multiple tasks involving over 100 participants. Collaborated closely with fellow researchers, ensuring smooth project execution.",
     },
   ],
   skills: [
-    "JavaScript",
+    "Critical thinking",
+    "Problem solving",
+    "Experimental design",
+    "Statistics", 
+    "R",
+    "Python",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "React/Next.js",
+    "SQL/Firebase"
+  ],
+
+  publications: [
+    {
+      title: "Jiwar: A database and calculator for word neighborhood measures in 40 Languages",
+      journal: "",
+      year: 2024,
+      link: "",
+      status:"under-review"
+    },
+    {
+      title: "The acceptability and validity of AI-generated psycholinguistic stimuli",
+      journal: "",
+      year: 2024,
+      link: "https://www.preprints.org/manuscript/202404.1074/v1",
+      status:"under-review"
+    },
+    {
+      title: "The role of language learning technologies: Insights from the Saudi context",
+      journal: "",
+      year: 2024,
+      link: "",
+      status:"accepted"
+    },
+    {
+      title: "Arabic Syntactic Analyzer (ARSA): an automated tool for the analysis of Arabic written texts",
+      journal: "",
+      year: 2024,
+      link: "",
+      status:"under-review"
+    },
+    {
+      title: "L2 video comprehension: effects of video and learner variables",
+      journal: "",
+      year: 2024,
+      link: "",
+      status:"under-review"
+    },
+    {
+      title: "I can’t see you two: L2 Arabic speakers cannot anticipate dual nouns",
+      journal: "",
+      year: 2024,
+      link: "",
+      status:"under-review"
+    },
+    {
+      title: "The predictive use of gender-marked verbs in L1 and L2 Arabic speakers",
+      journal: "",
+      year: 2024,
+      link: "",
+      status:"under-review"
+    },
+    {
+      title: "Utility of Kolmogorov complexity measures: Analysis of L2 groups and L1 backgrounds",
+      journal: "PLOS ONE",
+      year: 2024,
+      link: "Utility of Kolmogorov complexity measures: Analysis of L2 groups and L1 backgrounds",
+      status:"published"
+    },
+    {
+      title: "Syntactic priming in the classroom: using narratives to prime L2 Arabic speakers",
+      journal: "Asian-Pacific Journal of Secondand Foreign Language Education",
+      year: 2024,
+      link: "https://sfleducation.springeropen.com/articles/10.1186/s40862-024-00292-y",
+      status:"published"
+    },
+    {
+      title: "LexArabic: A receptive vocabulary size test to estimate Arabic proficiency",
+      journal: "Behavior Research Methods",
+      year: 2023,
+      link: "https://link.springer.com/article/10.3758/s13428-023-02286-z",
+      status:"published"
+    },
+    {
+      title: "What is the next structure? Guessing enhances L2 syntactic learning in a syntactic priming task",
+      journal: "Frontiers in Psychology",
+      year: 2023,
+      link: "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1188344/full",
+      status:"published"
+    },
   ],
   projects: [
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "ARSA",
+      techStack: ["Python", "Camel Parser", "NLTK"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
+        "An automatic tool that analyzes syntactic complexity in Arabic written texts",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "ARSA",
+        href: "https://github.com/AlaaAlzahrani/ARSA",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Jiwar",
+      techStack: ["Python", "phonemizer"],
       description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "A linguistic neighborhood calculator",
+      logo: MonitoLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "JiWAR",
+        href: "https://github.com/AlaaAlzahrani/Jiwar",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "LexArabic",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+      ],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
+        "A quick and validated vocabulary test designed to assess Arabic proficiency for both native and non-native adult Arabic speakers.",
+      logo: ParabolLogo,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "LexArabic",
+        href: "https://lexarabic.netlify.app/",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Professional Portfolio",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+      ],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "A one-page professional portfolio design.",
+      logo: EvercastLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "Portfolio",
+        href: "https://github.com/AlaaAlzahrani/bushra_website",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "Academic Portfolio",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+      ],
+      description: "A minimalist one-page academic portfolio design.",
+      logo: ConsultlyLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "Portfolio",
+        href: "",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Mood Tracker",
+      techStack: ["full-stack", "TypeScript", "Next.js", "firebase"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+        "An app that allows users to enter and record their daily moods",
+      logo: MonitoLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "BROODLE",
+        href: "https://broodl-alaa.netlify.app/",
       },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
