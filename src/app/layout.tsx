@@ -1,20 +1,19 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
-
 import "./globals.css";
 import React from "react";
+import Head from "./head";
 
-export const metadata: Metadata = {
-  title: "Alaa's CV",
-  description: "Alaa Alzhrani Personal CV",
-};
-
-// If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
+
+export const metadata: Metadata = {
+  title: "Alaa Alzahrani",
+  description: "CV",
+};
 
 export default function RootLayout({
   children,
@@ -23,6 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
+      <Head />
       <body>{children}</body>
       <Analytics />
     </html>

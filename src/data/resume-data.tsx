@@ -210,6 +210,13 @@ export const RESUME_DATA = {
       link: "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1188344/full",
       status:"published"
     },
+    {
+      title: "Priming the Arabic dative: Evidence for syntactic abstractness and implicit learning",
+      journal: "Frontiers in Education",
+      year: 2022,
+      link: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.951898/full",
+      status:"published"
+    },
   ],
   projects: [
     {
@@ -275,7 +282,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "Portfolio",
-        href: "",
+        href: "https://github.com/AlaaAlzahrani/minimal-cv",
       },
     },
     {

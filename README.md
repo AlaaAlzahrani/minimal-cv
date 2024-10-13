@@ -1,7 +1,10 @@
 
 # Minimalist Academic CV
 
-This CV template is a reformulation of an [existing minimalist CV](https://github.com/BartoszJarocki/cv/tree/main), created by Bartosz Jarocki. All original rights belong to the original author. This version includes modifications made by Alaa Alzahrani to make the CV suitable for presenting academic work.
+![cv]()
+
+
+This CV template is a reformulation of an [existing minimalist CV](https://github.com/BartoszJarocki/cv/tree/main), created by Bartosz Jarocki. All original rights belong to the original author. This version includes modifications made by me to make the CV suitable for presenting academic work.
 
 # How to use the CV 
 
