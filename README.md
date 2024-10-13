@@ -1,7 +1,9 @@
 
-# Minimalist Academic CV
 
-![cv](https://github.com/AlaaAlzahrani/minimal-cv/blob/main/public/page_shot.png)
+<h1 align="center">Minimalist Academic CV</h1>
+<p align="center">
+  <img src="https://github.com/AlaaAlzahrani/minimal-cv/blob/main/public/page_shot.png" alt="cv">
+</p>
 
 
 This CV template is a reformulation of an [existing minimalist CV](https://github.com/BartoszJarocki/cv/tree/main), created by Bartosz Jarocki. All original rights belong to the original author. This version includes modifications made by me to make the CV suitable for presenting academic work.
