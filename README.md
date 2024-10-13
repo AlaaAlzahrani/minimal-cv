@@ -1,9 +1,7 @@
 
 # Minimalist Academic CV
 
-<video src="https://raw.githubusercontent.com/AlaaAlzahrani/minimal-cv/main/public/Alaa%20Alzahrani_Personal%20CV.mp4" controls>
-  Your browser does not support the video tag.
-</video>
+![cv](https://github.com/AlaaAlzahrani/minimal-cv/blob/main/public/page_shot.png)
 
 
 This CV template is a reformulation of an [existing minimalist CV](https://github.com/BartoszJarocki/cv/tree/main), created by Bartosz Jarocki. All original rights belong to the original author. This version includes modifications made by me to make the CV suitable for presenting academic work.
